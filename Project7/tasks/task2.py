@@ -17,7 +17,8 @@ if __name__ == '__main__':
     if max_index < min_index:
         max_index, min_index = min_index, max_index
 
-    mult = 1
+    mult: int = 1
+
     for item in nums_list[min_index + 1:max_index]:
         mult *= item
 
